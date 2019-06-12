@@ -7,7 +7,7 @@ body, html {
 
 body {
     font-size: 12px;
-/*    change color and font-family here*/
+   
 }
 
 
@@ -25,7 +25,7 @@ h1, h2, h4 {
 
 .header {
     
-    border-bottom: #7d97ad solid 3px;
+    border-bottom: #7d97ad solid 5px;
     margin-bottom: auto;
 }
 
@@ -46,10 +46,13 @@ h1, h2, h4 {
 }
 
 .header_title {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 1.0em;
     margin-top: 35px;
     
+}
+.header_title h1 {
+    color:  #7d97ad;
 }
 
 .header_title h4 {
@@ -70,55 +73,73 @@ main {
 
 .mainImage {
     width: 100%;
-    position: relative;
-/*
-    background-image: url("./img/udacityLogo.png");
-    background-size: contain;
-    height: 200px;
-*/
 
 }
 
 .brainImage {
     width: 100%;
-    height: 75%;
+    max-width: 800px;
+    height: auto;
+    display: block; 
+    width: auto; 
+    margin: auto;
 }
 
 
 /*featured work*/
 
 .featuredWork {
-    padding: 1em;
+    padding: 2em;
 }
 
 .featured_title {
-    display: block;
+    display: flex;
     font-weight: 200;
     font-size: 2em;
+    color: #7d97ad;
+    margin: 0 auto;
+}
+
+.project_list {
+    max-width: 1335px;
+    margin: 0 auto;
+}
+
+.grid-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 
 
-
-
-.project_item {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2.0em;
+.project-item {
+    height: 250px;
+    flex-basis: 33%;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+   
 }
 
 .project_item span {
-    display: block;
+    display: inline;
     font-size: 2.0em;
+    justify-content: center;
 }
 
 .project_image {
     width: 100%;
 }
-    
-    
+
+.project_link {
+    justify-content: center;
+    font-size: 1.5em;
 }
+    
+    
+
 
 
 
