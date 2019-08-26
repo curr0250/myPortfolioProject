@@ -6,13 +6,16 @@
 
 @media screen and (min-width:500px){
      .header_logo {
-        height: 100px;
+        height: 200px;
         margin-right: 0.5em;
+         padding-bottom: 1em;
     }
     .header_title {
 /*        margin-right: 0;*/
-        font-size: 1.5em;
+        font-size: 1.25em;
         vertical-align: bottom;
+        padding-right: 3em;
+        padding-top: 2em;
     }
     .brain_image {
         
@@ -27,6 +30,7 @@
         width: 50%;
         display: inline;
         margin: auto;
+        padding-bottom: 3em;
     }
     .project_item span {
     display: flex;
@@ -36,7 +40,7 @@
 
 @media screen and (min-width:800px) {
     .header_logo {
-        height: 150px;
+        height: 250px;
         margin-right: 0.5em;
     }
     .header_title {
